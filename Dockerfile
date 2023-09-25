@@ -1,4 +1,4 @@
-FROM apache/airflow:2.6.2
+FROM apache/airflow:2.7.1
 
 RUN pip install --no-cache-dir \
     apache-airflow-providers-apprise==1.0.2 \
